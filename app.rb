@@ -8,18 +8,12 @@ get '/' do
 	
 end
 
+# обработчик запроса get
 get "/about" do
 	erb :about
 end
-
-# post "/about" do
-# 	erb :about
-# end
 
 get "/visit" do
 	erb :visit
 end
 
-# post "/visit" do
-# 	erb :visit
-# end
